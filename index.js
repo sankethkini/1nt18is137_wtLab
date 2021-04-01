@@ -31,8 +31,17 @@ car={
 car=null
 console.log(typeof car)
 
+let sum=()=>alert(10+20)
+sum();
+
 function func(){
     let a=document.getElementById("a").value
     let b=document.getElementById("b").value
     alert(Number(a)+Number(b))
 }
+
+let data=document.getElementById("btn")
+data.addEventListener("click",()=>{
+    let data1=document.getElementById("name").value
+    alert(data1)
+})
